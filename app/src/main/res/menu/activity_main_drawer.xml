@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/activity_nav_graph"
+            android:icon="@drawable/ic_baseline_work_24"
+            android:title="@string/menu_activity" />
+        <item
+            android:id="@+id/attendance_nav_graph"
+            android:icon="@drawable/ic_calendar"
+            android:title="@string/menu_attendance" />
+        <item
+            android:id="@+id/leave_nav_graph"
+            android:icon="@drawable/ic_leave_profile"
+            android:title="@string/menu_leave" />
+        <item
+            android:id="@+id/attendance_summary_nav_graph"
+            android:icon="@drawable/ic_attendance_summary"
+            android:title="@string/menu_attendance_summary" />
+        <item
+            android:id="@+id/logout_nav_graph"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/menu_logout" />
+    </group>
+
+</menu>
