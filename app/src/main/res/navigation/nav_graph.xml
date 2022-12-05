@@ -11,4 +11,6 @@
         app:graph="@navigation/attendance_nav_graph"/>
     <include
         app:graph="@navigation/attendance_summary_nav_graph"/>
+    <include
+        app:graph="@navigation/activity_nav_graph"/>
 </navigation>

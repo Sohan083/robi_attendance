@@ -59,6 +59,7 @@ class MainActivity : AppCompatActivity() {
             R.id.attendanceSummaryFragment,
             R.id.logoutFragment,
             R.id.leaveFragment,
+            R.id.activityFragment,
 
         ),drawerLayout)
         findViewById<Toolbar>(R.id.toolbar)
